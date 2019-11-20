@@ -1,0 +1,176 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+/*colores*/
+:root{
+  --main-font-color: #df744a;
+  --main-white: #fff;
+  --main-font-dark-gray: #6b7a8f;
+  --main-font-family: "Cheddar Jack", cursive ;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+  body {
+  margin: 0;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, 
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  text-align: center; 
+}
+/*nav bar*/
+.navbar{
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.1)!important;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav a{
+    color: var(--main-font-color);
+    padding-top: .8rem;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+color: #1ebba3;
+}
+/*fin nav*/
+
+/*home*/
+.Adoption_Home {
+  height: 700px;
+  background-image: url(/images/perro1.jpg);
+}
+.Adoption_Home .overlay {
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+}
+.Adoption_Home .Adoption_Home_contenido {
+  padding-top: 150px;
+  color: var(--main-white);
+  align-content: center;
+}
+.Adoption_Home .Adoption_Home_contenido p {
+  padding-left: 30px;
+  font-family: "Cheddar Jack", cursive ;
+}
+.Adoption_Home .Adoption_Home_contenido h1{
+  font-family: "Cheddar Jack", cursive ;
+}
+
+
+.btn {
+curors: pointer;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+-ms-border-radius: 30px;
+border-radius: 30px;
+margin-right: 20px;
+-webkit-box-shadow: none !important;
+box-shadow: none !important; }
+
+.btn:hover, .btn:active, .btn:focus {
+  outline: none; }
+.btn.btn-primary { 
+  background: var(--main-font-color);
+  border: 1px solid var(--main-font-color);
+  color: #fff; }
+.btn.btn-primary:hover {
+  border: 1px solid var(--main-font-color);
+  background: transparent;
+  color: var(--main-font-color); }
+
+          
+/*fin home*/
+
+.Adopción_table{
+ margin-top: 100px;
+}
+.section_gap {
+  padding: 90px 0; 
+  text-align: left;
+}
+  @media (max-width: 991px) {
+    .section_gap {
+      padding: 80px 0; } }
+
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+
+
+.Animal_details_inner .row {
+  margin-bottom: 60px; }
+
+  @media (max-width: 480px) {
+
+     .Animal_details_inner .row {
+      margin-bottom: 30px; } 
+    }
+.Animal_details_inner h1{
+  background-color: var(--main-font-dark-gray);
+  text-align: center;
+  color: var(--main-white);
+}
+
+.Animal_details_inner p {
+  margin-bottom: 30px;
+  font-size: 14px; 
+ }
+
+.Animal_details_inner .Animal_right_text {
+margin-top: 50px; }
+
+@media (max-width: 991px) {
+.Animal_details_inner .Animal_right_text {
+  margin-top: 0px; } }
+
+@media (max-width: 576px) {
+.Animal_details_inner .Animal_right_text {
+  margin-top: 50px; } }
+
+.Animal_details_inner .Animal_right_text h4 {
+color: #222222;
+font-size: 21px;
+margin-bottom: 18px;
+font-weight: 700; }
+
+.Animal_details_inner .Animal_right_text p {
+margin-bottom: 25px;
+font-size: 14px; }
+
+.Animal_details_inner .Animal_right_text .list li {
+margin-bottom: 7px;
+font-weight: normal;
+font-size: 14px; }
+
+.Animal_details_inner .Animal_right_text .list li span {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  width: 97px;
+  display: inline-block; }
+
+.Animal_details_inner .Animal_right_text .list li:last-child {
+  margin-bottom: 0px; }
